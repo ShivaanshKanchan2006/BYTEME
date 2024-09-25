@@ -13,3 +13,6 @@ Installation process:
 To install the required dependecies:
 
 ```pip install requirements.txt ```
+
+Figma Designs
+https://www.figma.com/design/ql0gH5lkxJ1jW8FSbBia8f/Untitled?m=auto&t=J7xiVSNN8q013Gcz-1
