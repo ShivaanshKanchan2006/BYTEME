@@ -10,7 +10,7 @@ app = Flask(__name__, static_url_path='/static')   #Initialise the app and mark 
 def index():  #Upload function for index.html
 	return render_template("index.html") 
 
-@app.route('/upload'):
+@app.route('/upload')
 def upload():
 	return render_template("upload.html")
 
