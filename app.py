@@ -7,12 +7,8 @@ model = load_model('model.h5') #Load in the model
 app = Flask(__name__, static_url_path='/static')   #Initialise the app and mark /static/ as the directory for CSS and Images
 
 @app.route('/')  
-def index():  #Upload function for index.html
-	return render_template("index.html") 
-
-@app.route('/upload')
-def upload():
-	return render_template("upload.html")
+def upload():  #Upload function for index.html
+	return render_template("upload.html") 
 
 @app.route('/result', methods = ['POST'])  
 def result():  
